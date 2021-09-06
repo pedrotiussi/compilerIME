@@ -17,14 +17,14 @@ endif
 .PHONY: all clean
 
 # add learner later
-all: awe_comp
+all: compile
 
 clean:
 	@rm -rf build/*
 	@rm -f *.run
 
 
-awe_comp: $(OBJ) build/src/libcsv.o
+compile: $(OBJ) build/src/libcsv.o
 	$(CXX) $(LFLAGS) $(OBJ) build/src/libcsv.o -o $@
 
 build/src/%.o: src/%.cpp

@@ -1,5 +1,0 @@
-function sqrt(n: integer) : integer {
-	var diff,media,aux,min,max: integer;
-
-	return media;
-}

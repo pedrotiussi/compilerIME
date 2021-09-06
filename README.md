@@ -1,11 +1,13 @@
-# awesome_compiler
-IME Compiladores Project
+# Compiler
+IME Project
 
+## Setup
 #### Build
 `make`
 
 #### Run
-`awe_comp [SCRIPT_NAME] [-o OUTPUT_FILE_NAME]`
+`compile [SCRIPT_NAME] [-o OUTPUT_FILE_NAME]`
 
-#### Clean
-`make clean`
+_There is also an example already set in test folder. To check the application running, execute:_
+
+`compile test/example -o output`
