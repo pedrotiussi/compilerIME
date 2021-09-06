@@ -1,11 +1,13 @@
 ## Setup
 #### Build
+In project folder, execute:
+
 `make`
 
 #### Run
 `compile SCRIPT_NAME -o OUTPUT_FILE_NAME`
 
-_There are also examples already set in test folder. For a quick check to the application, execute:_
+There are also examples already set in test folder. For a quick check to the application, execute:
 
 `compile test/simple_example -o output`
 
