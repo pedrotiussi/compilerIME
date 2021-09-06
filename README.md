@@ -5,6 +5,8 @@ In project folder, execute:
 `make`
 
 #### Run
+After building the application, run in project folder:
+
 `compile SCRIPT_NAME -o OUTPUT_FILE_NAME`
 
 There are also examples already set in test folder. For a quick check to the application, execute:
