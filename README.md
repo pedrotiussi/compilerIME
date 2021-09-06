@@ -5,7 +5,7 @@
 #### Run
 `compile SCRIPT_NAME -o OUTPUT_FILE_NAME`
 
-_There is also an example already set in test folder. For a quick run to check the application running, execute:_
+_There is also an example already set in test folder. For a quick check to the application, execute:_
 
 `compile test/simple_example -o output`
 
