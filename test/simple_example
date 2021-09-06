@@ -1,0 +1,9 @@
+function factorial(n: integer) : integer {
+	var result: integer;
+
+	while(result>0){
+		result = result * (result - 1);
+	}
+
+	return result;
+}
