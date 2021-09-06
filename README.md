@@ -1,6 +1,3 @@
-# Compiler
-IME Project
-
 ## Setup
 #### Build
 `make`
