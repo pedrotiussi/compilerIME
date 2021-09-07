@@ -7,13 +7,14 @@ In project folder, execute:
 #### Run
 After building the application, run in project folder:
 
-`compile SCRIPT_NAME -o OUTPUT_FILE_NAME`
+`compile SCRIPT_NAME > OUTPUT_FILE_NAME.txt`
 
 There are also examples already set in test folder. For a quick check to the application, execute:
 
-`compile test/simple_example -o output`
+`compile test/simple_example > output.txt`
 
 Then, the output to the corresponding code would be:
+
 
 
 <table>
@@ -24,22 +25,20 @@ Then, the output to the corresponding code would be:
 <tr>
 <td>
 
+
 ```C++
-function factorial(n: integer) : integer {
-	var result: integer;
-
-	while(result>0){
-		result = result * (result - 1);
-	}
-
-	return result;
+function twice(n: integer) : integer {
+	return 2 * n;
 }
 ```
+
 
 </td>
 <td>
 
 ```txt
+input_file_name: test/simple_example
+output_file_name: executavel
 8 
 48 ID id=0 
 27 
@@ -50,36 +49,10 @@ function factorial(n: integer) : integer {
 19 
 10 
 25 
-16 
-48 ID id=2 
-19 
-10 
-20 
-17 
-27 
-48 ID id=2 
-32 
-46 INT id=0 0 
-28 
-25 
-48 ID id=2 
-22 
-48 ID id=2 
-41 
-27 
-48 ID id=2 
-39 
-46 INT id=1 1 
-28 
-20 
-26 
 18 
-48 ID id=2 
+46 INT id=0 2 
+41 
+48 ID id=1 
 20 
 26 
 50 
-```
-
-</td>
-</tr>
-</table>

@@ -2,9 +2,7 @@
 #include <cstring>
 #include <stdlib.h> 
 
-#include "analisador_lexico.h"
-#include "analisador_sintatico.h"
-#include "analisador_de_escopo.h"
+#include "lexical_analyzer.h"
 #include <errno.h>
 
 void ERROR_FUNC(){
@@ -70,6 +68,5 @@ int main(int argc, char const *argv[])
         }
         printf("\n");
     } while(token != END);
-    parse();
     return 0;
 }
